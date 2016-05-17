@@ -1,0 +1,30 @@
+ todays class notes 
+
+date commmand 
+standard output redirection 
+date > abc
+standard output redirection 
+cat abc gives the value of the date
+
+wc -l -c -w
+
+grep head
+regular expression 
+^head anchors 
+meta characters in commandline 
+head$ believes it is the last line 
+^head$
+^h..d$
+
+pipe does everything in a single line. 
+
+cmd1|cmd2
+first one is a producer 
+second one is a consumer 
+ have dat with a value 10 and then write a c program of squaring and then ./a.out< file name 
+
+standard input redirection : why not much used 
+ps command
+less command makes it pagewise
+ulimit -a
+
