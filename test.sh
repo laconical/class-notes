@@ -1,3 +1,4 @@
+cd /home/sreeram/class
 git init
 git add -A
 git commit -m "date"

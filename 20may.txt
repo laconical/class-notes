@@ -1,0 +1,4 @@
+ shell programs not good for computation but manipulation of other programs 
+e back quote symbol to run the value inside it for eg : `date`
+$? shows the output of the preceeding command 
+exit command is only there for test because thats always clubbed with conditional statements
