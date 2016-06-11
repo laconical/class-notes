@@ -1,0 +1,62 @@
+disk usage command :  du <path>
+whats the difference between less and cat  ? 
+c compiler is very important because almost all the programs are written in c 
+the language kernel is written in c 
+the c program compiler itself is written in c 
+this is a chicken egg problem. 
+cc -v gives you the version information 
+
+cc -E <file name> 
+gives you the first stage of the c compilation process. 
+first stage is called  : preprocessing
+#define is replaced (macro expansion) 
+#include is included 
+
+cc -S <file name> , we see a file a.s , gives second phase of compilation 
+preprocessed code ---> assembly code and not machine code 
+this phase is called compilation proper
+
+
+cc -c <file name> gives .o extension 
+they are called object file 
+contains machine code 
+we will not be able to execute the machine code file because no execute permission. 
+cannot execute even if we give it the executable permission. 
+because machine code file is incomplete because the file is not linked with the standard c library code. this process is called linking. 
+this phase till now is called assembling 
+
+the last phase is called linking 
+
+cc <old name > -o <newname> means new output is stored in the new name and not the oldname.out format 
+
+complexity of the 4 stages 
+
+stage 3 
+assembly code ---> ,machine code 
+looking up each the assembly code in the instruction set
+
+stage 2 is most complex. 
+
+because syntactical structure is very complex. 
+and all the error have to be weeded out 
+ 
+GCC is an optimising compiler : 
+
+because it takes in c source code and generates assembply language code which run fastest on the machine. 
+the same programme can be used to generate different assembly programme 
+
+look up bit operations.pdf again 
+
+multiplication by mul add and even left shift 
+
+GCC is a retargetable compiler 
+
+it takes in .c code and converts it to x86-64 asm code 
+and also to any new kind of architecture without any huge work. this process is called retargeting 
+
+cc -g used to debug 
+look gdb video 
+
+
+
+
