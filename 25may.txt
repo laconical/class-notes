@@ -1,0 +1,61 @@
+starting with python 
+start off with the python practice book
+wget command helps to download files without the browser 
+wget <url>
+
+tar xvf <file name> to open a .tgz file 
+
+python is a dynamically typed languages which means there is no variable declarations as such and type is assigned during run time 
+developed by guido von rossum 
+REPL : Read,Evaluate,Print,Loop
+python has repl 
+which means python reads first evaluates them, prints them
+ and starts all over again waiting for the next input 
+python is white space sensitive 
+either use tab or multiple space 
+the problem with dynamic typing iss the errors are 
+caught only in run time and not in compile time.
+inspite of having error in the else part which will
+ not be executed it still showed a syntax error. how  ? 
+
+
+compilation and execution model of a python program 
+
+a) compilation into a byte code
+------------------------------------ 
+
+check for the syntactical errors according to the pythonic grammar 
+converts it into a machine code but wont run on a processor
+we call such machine code byte code or virtual machine code 
+
+why wont it run  ? 
+
+eg: in an x86 processor a function to add ax and bx --->
+ corresponding code is 80. 
+for arm it will be add r1, r2 -- > code might be 90
+what byte code that python generates will not be either 80 or
+ 90 and hence wont work  
+
+why is it called virtual machine code ? 
+
+The python programming language defines an abstract machine
+which means something you dont get it in market or it can 
+be called a hypothetical cpu 
+
+why virtual cpu  ? 
+its a classical programming language design strategy 
+eg in java also 
+specific advantage being : makes the language platform
+ independent
+ 
+ 
+b) byte code interpretation 
+
+read the byte code and run the commands mentioned in the byte
+ code  using c code.
+
+how to see the intermediate byte code file ? 
+take python 
+type import <file name> and come out of python 
+  
+ 
