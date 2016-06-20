@@ -1,0 +1,10 @@
+named arguments to avoid type mismatch semantic errors 
+
+paint (thickness=10, color = 'red')
+ check fun (a,*b)
+* packs values together in a bundle 
+a= [1,2,3]
+fun (*a)
+* unpacks 
+variable arguments in python 
+

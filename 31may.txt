@@ -1,0 +1,49 @@
+a=[1,2,3,4]
+2 in a checks for membership
+a.sort() mutates the list to a sorted list 
+sorted(a)doesnt mutate the list 
+
+list comprehension
+-----------------
+[x*x for x in a if x%2 == 0] returns a modified list 
+
+this is a list comprehension
+
+the pythonic style
+-----------------
+for repetition
+a) try list comprehension
+b) for loop
+c) while loop 
+
+a,b = (1,2)
+is called unpacking a tuple
+tuple is immutable
+zip function 
+-----------
+
+a= [1,3,5]
+b=[2,4,6]
+zip(a,b) regroups it as a different tuple
+
+nested comprehensions gives permutation upon itself 
+t=[(u,v)for u in a for v in a]
+nested comprehension with a selection
+t=[(u,v)for u in a for v in a if (u-v)=1]
+
+dictionary
+----------
+a= {'abc':10,'def':20}
+comes in key-value pairs 
+heterogenous 
+mutable 
+no ordering 
+none - pythonic blank 
+tuple keys have to be immutable 
+values can be anything 
+
+look up : hash table 
+
+del a('abc') deletes the key 
+
+

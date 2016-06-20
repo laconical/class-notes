@@ -1,0 +1,19 @@
+pylint install not done used to detect the errors in the code 
+s= f.read()
+means s is the object called file handle 
+modes while opening 
+a-append mode so that the file is not overwritten 
+accessing lines at specific order 
+
+lseek, seek, but only byte wise. HW : how to use these functions 
+
+if you need to do this, assume the file is not big convert
+into the list and access the lines randomly 
+HW: check how to convert a file into a list 
+s.strip be passed to remove the strings from the int 
+wordcount programme 
+if and else fill it up in the wordcount
+split and strip exercise for the wordcount 
+ 
+
+

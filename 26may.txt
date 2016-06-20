@@ -1,0 +1,65 @@
+data structures 
+python has negative indexing 
+a = "hello"
+a[-1] - o 
+no indexing beyond its limit 
+s= "abcdefghij"
+s[2:6] = cdef
+s[2:] = cdefghij
+s[:2] = ab
+s[:] = abcdefghij
+s[1:8:2]
+
+check it out strings 4.py string slicing 
+triple quotes enables paragraphs 5.py 
+6.py 
+adding a string and int gives a type error 
+7.py 
+use of the function str() function to convert int or float to string 
+8.py 
+use of int() function 
+str object doesnt support item assignment 
+
+mutable or immutable
+mutable means it can be modified 
+9.py returns an error 
+string is an immutable data structure 
+dir(a) shows all the functions/methods that can be called on an a 
+never reinvent the wheel use all the functions and then use them 
+a= 'hello '
+a.upper()
+help(a.upper) gives documentation and helps rapid coding 
+10.py 
+len shows the length of the string 
+home work : find what the string functions do 
+
+List 
+------
+similar to array in c 
+list are heterogenous  can have any kind of data types . they are general
+ purpose containers even lists can have lists inside them 
+
+lists are mutable 
+3.py 
+empty list and append() function 
+range(n) will use a huge chunk of memory 
+python only stores range in the memory and they are produced on demand. this is an intelligent optmisation heavily used in python 3 and 2 
+this is called lazy evaluation 
+python 3 has a lot of lazy evaluation 
+slice assigment 
+5.py 
+list addition 
+6.py 
+a.insert(2,100) inserts 100 at 2 
+python lists are highy dynamic data structures compared to the arrays in c 
+2d array in c is like nested list in python 
+a= b 
+and b is appended 
+it will reflect in the original a because a is a pointer like b which is a
+references/aliases pointing to the same list in memory 
+b= a[:] will preserve the value in a 
+ 
+ 
+
+
+
