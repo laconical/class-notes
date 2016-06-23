@@ -1,0 +1,12 @@
+6.py
+-------
+adding a keyword global in front of the variable inside a function
+makes it a global variable and merely copies the address of the 
+original variable outside the function
+usage of global variable is a bad thing because it
+ creates a lot of dependencies.
+functions are first class entities which means assignment can be 
+done like other kinds of objects
+functions can be even passed to other functions
+its called higher order function  
+ 

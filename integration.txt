@@ -1,0 +1,12 @@
+def sqr(x):
+	return x*X
+def integration(f):
+	def fun (a,b):
+		sum = 0
+		while a != b:
+			sum = sum + (f(a)*f(a+0.001))
+			a= a+ 0.001
+		print sum
+	return fun
+integration
+  	

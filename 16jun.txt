@@ -1,3 +1,23 @@
+default arguments in python 
+----------------------------
+def fun(a, b=1):
+	return a+b
+fun (10) = 11
+fun(10,3)= 13
+when the only one argument is given in such case the compiler assumes the value of the second variable to the predefined value 
+def fun (a, b=1,c)---> error
+because c cannot follow a default argument . it has to be written towards the
+end
+def fun (a, c, b=1) -> correct format 
+
+variable arguments
+-------------------
+
+var- args functions 
+
+fun (a,*b)
+the first parameter is stored in a and the rest of the parameters are stored inside the tuple containing b 
+
 named arguments to avoid type mismatch semantic errors 
 
 paint (thickness=10, color = 'red')

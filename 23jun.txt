@@ -1,0 +1,22 @@
+in python 3 map function doesnt cause buffer overload because instead of returning a list in map function it returns an object which means computation is done on demand 
+range function also the same way only stores the starting and ending points 
+
+closures
+----------
+
+python has nested functions 
+fun 1 has fun2 inside the function 
+you cannot call fun 2 outside because of limited scope issues 
+
+when fun2 is called by assigning it to a diff variable, it wll be able to acess its parrent function variable
+
+functions like fun2 are called closures
+they have captured some values from the outside environment 
+
+a function taking n arguments can be written as n-times nested function. This is called a curried invocation 
+
+use of closures
+--------------
+
+differentiation and integration are examples of higher order mathematical functions 
+where functions 
