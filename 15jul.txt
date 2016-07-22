@@ -1,0 +1,16 @@
+ part 1
+
+exception handling 
+array limit exceeding  
+division by zero etc are examples of exceptions 
+so extra ordinary situations like these are called exceptions
+most exceptions result in termination of the program unless we use some lind of exception handling 
+
+try : 
+	................
+	....................
+except : 
+	............. 
+	.........
+once except block is implemented, exception is said to
+  be handled 

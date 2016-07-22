@@ -1,0 +1,37 @@
+	21 jul 2016
+	-----------
+
+composition and inheritance are the two central ideas of oop
+
+combine classes/object -- > more complex stuff 
+
+real world entities will often be related to each other 
+a)	has a relation modelled by composition, doesnt require huge syntax 
+b) 	is a relation  modelled by inheritance 
+
+class encapsulates data and behaviour
+
+use of multiple inheritance is highly discouraged 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
