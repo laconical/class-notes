@@ -1,0 +1,30 @@
+simple OOPS with a bank account example 
+dictionary and class have a very similar use without the class methods
+dictionary does not crate a new type and to do that we need class 
+classes give a much more solid representation of an entity 
+they bind actions with a type 
+
+constructor functions :
+
+def _init_(self): means this function gets initialised when the object is created 
+this is used to properly initialise the object
+member functions are always called with the object. 
+they can be called with the class name as well but it is not generally followed 
+
+home work
+--------
+complex.py
+image download 
+
+
+scope : 
+------
+
+variables are binded to objects only with the objectname.variablename format
+to understand the binding we need to understand whether the variable is bound to the class or the object
+local variables always shadow the effects of global variables 
+variables can be declared and assigned in class as attributes and can be called only with the classname.variablename format
+  
+
+
+
