@@ -1,0 +1,56 @@
+
+When you build large programs using classes and objects, inheritance and composition are a must 
+inheritance- 'is a' relationship  eg: car and ferrari
+composition- 'has a' relationship eg: engine and car
+composition has no syntactical change  
+ 
+class bar(foo): 
+means the class bar inherits from the class foo 
+There is a thing called "extended attribute lookup mechanism" which means when a method is defined in foo and 
+an object from bar is bound with the method, even if the method is not present in bar, it will run the method in foo 
+it first looks into the current class and then looks into the parent class
+There is a thing called "method resolution order" which defines which method we need to choose from in case of mutiple inheritance(not encouraged)
+
+new style class
+--------------
+class Foo (object) and simply class foo are two different things in python 2 but in python 3 they mean the same. 
+thats called new style class. It is a practice generally followed while defining classes which comes from the history of type/class unification 
+
+Ducktyping:
+---------
+
+we define a class duck and then define an external function handle_duck that takes in an object and prints a method from the object 
+now even if there is a class is lookslike duck and its object is passed on to the handle_duck function, as long as the method is there in
+the lookslikeduck class, it wil not show any error. 
+the origin of the term comes from the idiom by straithwite "what looks like a duck and quacks like one, is a duck"
+
+constructors in inheritance:
+--------------------------
+
+When an object is created the init function also called the contructor is automatically invoked. 
+
+now if the object's class does not have a constructor but it's base class does, then that constructor is called
+ if both of the classes have constructors, the derived class constructor is only called and not the base one. 
+if you need to call the base constructor now, you will need to call them within the derived constructor. 
+
+Raise a user generated exception:
+-------------------------------
+
+try: 
+except: 
+else : 
+finally: 
+the finally is always executed even if the exception is encountered. 
+ myerro(eception) by giving exception as an argument, you can generate your own exception as exceptions are stored in python as classes. 
+you are inheriting the exception this way. 
+
+SQLITE basics:
+--------------
+conn expression
+cursor expression
+commit expression and 
+close expression 
+will be taken in deeper when the time comes
+ 
+
+
